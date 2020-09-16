@@ -23,6 +23,7 @@ You will require to update the identity service in the `terraform.tfvars`. <br>
  
  # After updating this file you will require to run the terraform commands as below : <br>
  To check the plan of the terraform template <br>
+ `# terraform init` <br>
  `#terraform plan` <br>
  `#terraform apply`
  
