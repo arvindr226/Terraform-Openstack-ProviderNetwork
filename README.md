@@ -13,13 +13,13 @@ You will require to update the identity service in the `terraform.tfvars`. <br>
 
 
 `network_count` provide into terraform.tfvars according to the count you will need to provide as list. <br>
- `network_count = 2  ## Provide the number of the network` <br>
- `network_name = ["Network1","Network2"] ## Network name` <br>
+ `network_count = 2 ` <br>
+ `network_name = ["Network1","Network2"] ` <br>
  `subnet_name = ["Subnet1","Subnet2"]` <br>
- `vlan_id = [500,501] ## VLAN from the Router` <br>
+ `vlan_id = [500,501]` <br>
  `network_cidr = ["10.20.10.0/24","10.20.20.0/24"]` <br>
- `network_provider = "datacenter" ## Provider network name` <br>
- `gateway = ["10.20.10.1","10.20.20.1"] ## Gateway of the each network` <br>
+ `network_provider = "datacenter" ` <br>
+ `gateway = ["10.20.10.1","10.20.20.1"]` <br>
  
  # After updating this file you will require to run the terraform commands as below : <br>
  To check the plan of the terraform template <br>
