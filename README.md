@@ -21,7 +21,7 @@ You will require to update the identity service in the `terraform.tfvars`. <br>
  `network_provider = "datacenter" ## Provider network name` <br>
  `gateway = ["10.20.10.1","10.20.20.1"] ## Gateway of the each network` <br>
  
- #After updating this file you will require to run the terraform commands as below :
+ # After updating this file you will require to run the terraform commands as below : <br>
  To check the plan of the terraform template <br>
  `#terraform plan` <br>
  `#terraform apply`
