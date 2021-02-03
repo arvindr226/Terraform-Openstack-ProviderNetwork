@@ -1,4 +1,6 @@
 # Terraform-Openstack-ProviderNetwork
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Farvindr226%2FTerraform-Openstack-ProviderNetwork.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Farvindr226%2FTerraform-Openstack-ProviderNetwork?ref=badge_shield)
+
 Terraform Openstack Provider Network Creation Templates
 
 Create Provider network on the Openstack cluster. The network type will be `VLAN` as per this terraform. The template will help to create bulk networks.
@@ -29,3 +31,7 @@ You will require to update the identity service in the `terraform.tfvars`. <br>
  
  To delete the networks create by this terraform. <br>
  `#terraform destroy`
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Farvindr226%2FTerraform-Openstack-ProviderNetwork.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Farvindr226%2FTerraform-Openstack-ProviderNetwork?ref=badge_large)
